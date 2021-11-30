@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/home.css')}}">
+
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <!--
+    {% if not champion %}
+        <h1>Welcome {{ user }}!</h1>
+    {% else %}
+        <h1> Congratulations {{ champion }} won!</h1>
+    {% endif %}
+    -->
+</head>
+<body class="main-page">
+    <div class="left-half">
+        <div class="button-group">
+            <div class="top-row">
+                <a id="left-top" class="link-button" href="{{ url_for('season1') }}">
+                    <div class="link-button-div">
+                        <div class="icon-div">
+                            <i class="fas fa-football-ball fa-5x"></i>
+                        </div>
+                        <br>
+                        <div class="title-div">
+                            2019-2020 Season
+                        </div>
+                    </div>
+                </a>
+                <a id="right-top" class="link-button" href="{{ url_for('season2') }}">
+                    <div class="link-button-div">
+                        <div class="icon-div">
+                            <i class="fas fa-football-ball fa-5x"></i>
+                        </div>
+                        <br>
+                        <div class="title-div">
+                            2020-2021 Season
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="bottom-row">
+                <a id="bottom" class="link-button" href="{{ url_for('season3') }}">
+                    <div class="link-button-div">
+                        <div class="icon-div">
+                            <i class="fas fa-football-ball fa-5x"></i>
+                        </div>
+                        <br>
+                        <div class="title-div">
+                            2021-2022 Season
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
