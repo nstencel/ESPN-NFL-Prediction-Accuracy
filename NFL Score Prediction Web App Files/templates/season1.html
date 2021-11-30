@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href="{{ url_for('static', filename='css/home.css')}}">
+
+    <meta charset="UTF-8">
+    <title>2019-2020 Season</title>
+    
+    
+</head>
+<body>
+    {% if not game.empty %}
+        {% for matches in game.itertuples() %}
+            {% for match in matches %}
+                {% for i in range(16) %}
+                    {{match[i]}}
+                    <br>
+                {%endfor%}
+            {%endfor%}
+        {%endfor%}
+    {% endif %}
+    
+</body>
+</html>

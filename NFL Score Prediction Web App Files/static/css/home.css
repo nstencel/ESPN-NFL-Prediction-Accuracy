@@ -1,0 +1,89 @@
+.main-page {
+    background-image: url('/static/background2.jpeg');
+    background-size: cover;
+  }
+
+.fcc-btn {
+  background-color: white;
+  color: red;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top:50px;
+  font-weight: bold;
+}
+
+.left-half {
+  height:70vh;
+  width:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-group {
+  position:absolute;
+  height:300px;
+  width:600px;
+}
+
+.top-row {
+  display:flex;
+  justify-content: center;
+  top:0;
+  height:50%;
+  width:100%;
+}
+
+.bottom-row {
+  margin-top: 10px;
+  bottom:0;
+  height:50%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+#left-top {
+  height:100%;
+  width:40%;
+  margin-right:10px;
+}
+
+#right-top {
+  height:100%;
+  width:40%;
+}
+
+#bottom {
+  height:100%;
+  width:40%;
+}
+
+.link-button {
+  color: white; 
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #013369;
+  border: 2px solid white;
+}
+
+.link-button-div{
+  width:75%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.icon-div{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.title-div{
+  width:100%;
+  text-align: center;
+}
